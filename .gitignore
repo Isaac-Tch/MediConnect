@@ -1,0 +1,17 @@
+# Entregables fuera del repositorio
+/*.pdf
+/*.docx
+/*.zip
+
+# Secretos y dependencias
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+.next/
+
+# Basura local
+*.bak
+*.log
+.phpunit.result.cache
